@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700;800&family=Vidaloka&display=swap');
+
+
+
+
+body {
+    background-color: #F3C622;
+    font-family: 'Poppins', sans-serif ;
+    
+}
+
+h1,h2,h3,h4,h5,h6,ul,li{
+    font-family: 'Poppins', serif;
+}
+
+.navbar{
+    background: linear-gradient(to right,  #F3C622, #7FFF00);
+}
+
+
+
+.navbar-brand{
+    font-family: 'Poppins', serif;
+    color: #FFFFFF;
+}
+.navbar-nav .active{
+    border-bottom: #000000 solid 3px;
+    
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    
+   
+    
+}
+
+.navbar-nav .nav-link[href="{{ route('login') }}"], 
+.navbar-nav .nav-link[href="{{ route('register') }}"] {
+    font-style: italic;
+}
+
+.btn-dark{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+
+}
+
+/*OUR TEAM SOCIAL LINKS*/
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+
+
+.carousel-item{
+    height: 500px;
+}
+.carousel-item img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.5); /* Set the background color with alpha transparency value */
+    padding: 2px; /* Add some padding to the text container */
+    display: flex; /* Make the container element a flex container */
+    justify-content: center; /* Center the child elements horizontally */
+    align-items: center; /* Center the child elements vertically */
+    text-align: center; 
+    
+    font-family: 'Poppins', sans-serif;
+   
+  }
+

@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(to right,  #F3C622, #7FFF00);
+  
+}
+
+.bg-imagee {
+  background-image: url('/img/contactus.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+
+.bg-image {
+  background-image: url('/img/res.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+
+
+
+
+
+
+

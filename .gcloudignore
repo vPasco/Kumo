@@ -1,0 +1,11 @@
+
+.gcloudignore
+.git
+.gitignore
+
+
+/vendor/
+/tests/
+/node_modules/
+
+
